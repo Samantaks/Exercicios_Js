@@ -19,11 +19,11 @@ console.log("-------------- SEGUNDA QUESTÃO ------------------");
 console.log("-------------- FINAL DA SEGUNDA QUESTÃO ------------------");
 console.log("-------------- TERCEIRA QUESTÃO ------------------");
 
-var TERCEIRApeso = 104 ;
+var TERCEIRApeso = 60 ;
 var TERCEIRAaltura = 1.6
 var IMC
 
-IMC = (TERCEIRApeso / ((TERCEIRAaltura)**2))
+IMC = (TERCEIRApeso / ((TERCEIRAaltura)**2)).toFixed(2)
 
 if (IMC <= 18.6){
     console.log(`Seu IMC É ${IMC} , ou seja, estás: abaixo do peso.`)
@@ -53,7 +53,6 @@ function tabuada(NUMERO){
 tabuada(7)
 
 console.log("-------------- FINAL DA QUARTA QUESTÃO ------------------");
-
 console.log("-------------- QUINTA QUESTÃO ------------------");
 
 function divisao(a,b){
@@ -72,10 +71,21 @@ divisao(10,0)
 divisao(10,2)
 
 console.log("-------------- FINAL DA QUINTA QUESTÃO ------------------");
-
 console.log("-------------- SEXTA QUESTÃO ------------------");
 
-
-
+function calcularGasolina(distancia){
+    const precoGasolina = 5.24
+    const autonomia = 9.8
+    let valor = ((distancia/autonomia) * precoGasolina).toFixed(2)
+    console.log(`Para fazer ${distancia}kms você deve abastecer R$ ${valor*2}`)
+}
+calcularGasolina(500)
 
 console.log("-------------- FINAL DA SEXTA QUESTÃO ------------------");
+console.log("-------------- SÉTIMA QUESTÃO ------------------");
+
+
+
+
+
+console.log("-------------- FINAL DA SÉTIMA QUESTÃO ------------------");
