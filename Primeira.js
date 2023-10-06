@@ -44,6 +44,12 @@ if (IMC <= 18.6){
 console.log("-------------- FINAL DA TERCEIRA QUESTÃO ------------------");
 console.log("-------------- QUARTA QUESTÃO ------------------");
 
+function tabuada(NUMERO){
+    for(let i = 1; i<=10; i++){
+        console.log(`${NUMERO} x ${i} = ${NUMERO*i}`)
+    }
+}
 
+tabuada(7)
 
 console.log("-------------- FINAL DA QUARTA QUESTÃO ------------------");
