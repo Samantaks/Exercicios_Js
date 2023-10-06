@@ -53,3 +53,29 @@ function tabuada(NUMERO){
 tabuada(7)
 
 console.log("-------------- FINAL DA QUARTA QUESTÃO ------------------");
+
+console.log("-------------- QUINTA QUESTÃO ------------------");
+
+function divisao(a,b){
+    try{
+        if (b==0){
+            throw new RangeError("Impossivel se dividir números por zero.")
+        } else {
+            console.log("O primeiro número dividido pelo segundo é" , a/b )
+        }
+    } catch (error) {
+        console.error("Erro:" + error.message)
+    }
+}
+
+divisao(10,0)
+divisao(10,2)
+
+console.log("-------------- FINAL DA QUINTA QUESTÃO ------------------");
+
+console.log("-------------- SEXTA QUESTÃO ------------------");
+
+
+
+
+console.log("-------------- FINAL DA SEXTA QUESTÃO ------------------");
