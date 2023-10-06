@@ -42,3 +42,8 @@ if (IMC <= 18.6){
 }
 
 console.log("-------------- FINAL DA TERCEIRA QUESTÃO ------------------");
+console.log("-------------- QUARTA QUESTÃO ------------------");
+
+
+
+console.log("-------------- FINAL DA QUARTA QUESTÃO ------------------");
