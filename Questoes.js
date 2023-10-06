@@ -84,8 +84,26 @@ calcularGasolina(500)
 console.log("-------------- FINAL DA SEXTA QUESTÃO ------------------");
 console.log("-------------- SÉTIMA QUESTÃO ------------------");
 
+function fatorial(num){
+    try {
+        if (num < 0){
+            throw new RangeError ("Não é possivel calcular o fatorial de numeros negativos");
+        } else if (num===0){
+            console.log("O fatorial de zero é 1");
+        } else {
+            let resultado = 1;
+            for(let i = 1; i<= num; i++){
+                resultado *= i;
+            }
+            console.log(`O fatorial de ${num} é ${resultado}`);
+        }
+    }catch(error){
+        console.error("Erro:" + error.message)
+    }
+}
 
-
+fatorial(15)
+fatorial(-10)
 
 
 console.log("-------------- FINAL DA SÉTIMA QUESTÃO ------------------");
